@@ -8,3 +8,7 @@ jobs:
         run: echo "hello you"
       - name: Goodeby
         run: echo "goodby you"
+      - name: multiple shell commands
+      - run: |
+          echo "first"
+          echo "second"
