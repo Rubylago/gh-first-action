@@ -9,6 +9,6 @@ jobs:
       - name: Goodeby
         run: echo "goodby you"
       - name: multiple shell commands
-      - run: |
+        run: |
           echo "first"
           echo "second"
